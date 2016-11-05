@@ -117,7 +117,7 @@ main {
   border: 2px solid #3d3a34;
   border-radius: 50%;
   background-color: rgba(61,58,52, 0.4); 
-  position: relative;
+
 }
 
 .btn {
@@ -137,7 +137,9 @@ box-shadow: 4px 4px 5px -5px rgba(61,58,52, 1);
 }
 
 #message-div {
-  position: absolute;
+
+  margin: 0 auto;
+  margin-top: 25%;
   text-align: center;
   height: 0;
   width: 0;
