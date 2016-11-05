@@ -94,8 +94,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*** mobile styles ***/
+body {
+  background-color: black;
+  color: #D3C2FF;
+  font-family: fantasy;
+}
 
+main {
+  text-align: center;
+  width: 100%;
+  
+}
 
+h1 {
+  width:;
+}
 
 
 
