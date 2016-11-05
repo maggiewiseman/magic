@@ -97,8 +97,9 @@ textarea {
 /*** mobile styles ***/
 body {
   background-color: black;
-  color: #D3C2FF;
-  font-family: fantasy;
+  /*color: #D3C2FF;*/
+  color: #FFFDF9;
+  font-family: 'Cabin', sans-serif;
 }
 
 main {
@@ -107,11 +108,34 @@ main {
   
 }
 
-h1 {
-  width:;
+#water {
+  margin: 10% 0;
+  padding-top: 10%;
+  height: 300px;
+  border: 2px solid #3d3a34;
+  border-radius: 50%;
+  background-color: rgba(61,58,52, 0.4); 
 }
 
+.btn {
+  width: 30%;
+  font-size: 1.5em;
+  padding: 2% 0 2% 0;
+  background-color: rgba(61,58,52, 1);
+  border: 1px solid rgba(191,153,191,1);
+  -webkit-box-shadow: 4px 4px 5px -5px rgba(61,58,52, 1);
+-moz-box-shadow: 4px 4px 5px -5px rgba(61,58,52, 1);
+box-shadow: 4px 4px 5px -5px rgba(61,58,52, 1);
+  /*rgba(191,153,191,1); */
+}
 
+.btn:hover {
+  background-color: #b21e49;
+}
+
+#message-div {
+  
+}
 
 
 
