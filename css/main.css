@@ -104,15 +104,16 @@ body {
 
 main {
   text-align: center;
-  width: 100%;
+  width: 90%;
+  padding: 0;
   
 }
 
 #water {
+  width: 95%;
+  height: 0;
   margin: 0 auto;
   padding-top: 10%;
-  width: 100%;
-  height: 0;
   padding-bottom: 100%;
   border: 2px solid #3d3a34;
   border-radius: 50%;
@@ -124,6 +125,7 @@ main {
   width: 30%;
   font-size: 1.5em;
   padding: 2% 0 2% 0;
+  margin-top: 10%;
   background-color: rgba(61,58,52, 1);
   border: 1px solid rgba(191,153,191,1);
   -webkit-box-shadow: 4px 4px 5px -5px rgba(61,58,52, 1);
@@ -136,7 +138,7 @@ box-shadow: 4px 4px 5px -5px rgba(61,58,52, 1);
   background-color: #b21e49;
 }
 
-#message-div {
+#triangle {
 
   margin: 0 auto;
   margin-top: 25%;
@@ -146,8 +148,19 @@ box-shadow: 4px 4px 5px -5px rgba(61,58,52, 1);
   border-width: 145px;
   border-color: rgba(68, 13, 255, 0.7) transparent transparent transparent;
   border-style: solid;
+  position: relative;
 }
 
+#message  {
+  position: absolute;
+    text-align: center;
+    top: -100px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+}
 
 
 
