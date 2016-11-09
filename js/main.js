@@ -10,7 +10,7 @@ var messsageList = ["It is certain",
                     "Outlook good."];
 
 $("document").ready(function () {
-  console.log ("in ready function");
+  console.log("in ready function");
   
   
   $("#ask-btn").click(function () {
@@ -18,10 +18,8 @@ $("document").ready(function () {
     var index = Math.floor((Math.random() * 10));
     console.log(index);
   
-    if(index > 7) {
-      index = index -2;
-    }
-     
-    $("#message").text(messsageList[index]);
+    if (index > 7) {
+      index = index - 2;
+    }    $("#message").text(messsageList[index]).fadeOut(10).fadeIn(3000);
   });
 });
