@@ -20,6 +20,6 @@ $("document").ready(function () {
   
     if (index > 7) {
       index = index - 2;
-    }    $("#message").text(messsageList[index]).fadeOut(10).fadeIn(3000);
+    }    $("#message").text(messsageList[index]).fadeOut(1).fadeIn(3000);
   });
 });
