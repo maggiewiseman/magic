@@ -16,7 +16,7 @@ var getMessage = function() {
   
     if (index > 7) {
       index = index - 2;
-    }    $("#message").text(messsageList[index]).fadeIn("slow", "linear");
+    }    $("#message").text(messsageList[index]).fadeOut(1).fadeIn(1500, "easeInBack");
 };
 
 $("document").ready(function () {
