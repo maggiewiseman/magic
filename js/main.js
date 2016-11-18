@@ -22,7 +22,8 @@ var getMessage = function() {
     } 
   
   //change message in DOM
-  $("#message").text(messsageList[index]).fadeOut(1).fadeIn(1500, "easeInBack");
+  $("#triangle").fadeOut(1).fadeIn(2000, "swing");
+  $("#message").text(messsageList[index]);
 };
 
 $("document").ready(function () {
