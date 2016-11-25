@@ -19,7 +19,7 @@ var messsageList = ["It is certain",
 "My reply is no",
 "My sources say no",
 "Outlook not so good",
-"Very doubtful"]
+"Very doubtful"];
 //computes a random number so a random message from array is chosen.  
 
 var getMessage = function() {
@@ -40,7 +40,12 @@ $("document").ready(function () {
   console.log("in ready function");
   $("#message").hide();
   
-  $("#ask-btn").click(getMessage);
+ // $("#ask-btn").click(getMessage);
+    $("#ask-btn").click(function() {
+      $("#triangle").effect( "shake" );
+      getMessage();
+    });
+
   
   
   window.addEventListener('deviceshake', function (){
