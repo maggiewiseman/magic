@@ -32,14 +32,16 @@ var getMessage = function() {
   
   //change message in DOM
   $("#triangle").fadeOut(1).fadeIn(2000, "swing");
-  $("#message").text(messsageList[index]);
+  $("#message").hide();
+  $("#message").text(messsageList[index]).fadeIn(3000);
 };
 
 $("document").ready(function () {
   console.log("in ready function");
-  
+  $("#message").hide();
   
   $("#ask-btn").click(getMessage);
+  
   
   window.addEventListener('deviceshake', function (){
         getMessage();
